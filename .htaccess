@@ -1,6 +1,6 @@
-ErrorDocument 401 http://localhost/webadmin/resource/view/pages/error/401.php
-ErrorDocument 404 http://localhost/webadmin/resource/view/pages/error/404.php
-ErrorDocument 500 http://localhost/webadmin/resource/view/pages/error/500.php
+ErrorDocument 401 http://localhost/SuperFood_PHP/resource/view/pages/error/401.php
+ErrorDocument 404 http://localhost/SuperFood_PHP/resource/view/pages/error/404.php
+ErrorDocument 500 http://localhost/SuperFood_PHP/resource/view/pages/error/500.php
 # or map them to one error document:
 # ErrorDocument 404 /admin/errors/error_redirect.php
 # ErrorDocument 500 /admin/errors/error_redirect.php

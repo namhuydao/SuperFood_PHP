@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="footerTop__logo animate__animated animate__fadeInLeft wow" data-wow-delay="0.5s">
-                        <div class="footerTop__logo-image"><img src="../images/layout/logo-white.png" alt=""></div>
+                        <div class="footerTop__logo-image"><img src="../../../../public/site/images/layout/logo-white.png" alt=""></div>
                         <div class="footerTop__logo-text">At vero eos et accusam et justo duo dolo res et ea rebum.
                             Stet clita
                             kasd guber gren. Aenean sollici tudin lorem quis biben dum auci elit clita.
@@ -137,11 +137,11 @@
 <!-- Bootstrap JS-->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <!-- Owl Carousel-->
-<script src="../js/owl.carousel.min.js"></script>
+<script src="../../../../public/site/js/owl.carousel.min.js"></script>
 <!-- Fancy Box-->
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <!-- Wow JS-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <!-- Main JS-->
-<script src="../js/main.js"></script>
+<script src="../../../../public/site/js/main.js"></script>
 

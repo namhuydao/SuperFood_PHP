@@ -1717,6 +1717,10 @@ button, button:focus, button:active{
     height: 100%
 }
 
+.contact__background img{
+    height: 100%
+}
+
 .contact__content {
     font-family: Signika, sans-serif;
     font-size: 32px;

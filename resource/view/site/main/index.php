@@ -9,10 +9,10 @@ include "partials/header.php";
     <div class="owl-slider owl-carousel owl-theme">
         <div class="slider__item">
             <div class="slider__item-background background-left animate__animated animate__fadeInUp wow"><img
-                        src="../images/home/slider-1.png" alt=""></div>
+                        src="../../../../public/site/images/home/slider-1.png" alt=""></div>
             <div class="container h-100">
                 <div class="slider__item-content animate__animated animate__fadeInLeft wow" data-wow-delay="1s">
-                    <div class="content__image"><img src="../images/layout/item-1.png" alt=""></div>
+                    <div class="content__image"><img src="../../../../public/site/images/layout/item-1.png" alt=""></div>
                     <div class="content__title">Choosing the Right Nutrition</div>
                     <p class="content__text">With an emphasis on Organic and Local, we do as little conventional
                         shopping as possible. We are always open to suggestions.</p><a class="btn btn-color"
@@ -22,11 +22,11 @@ include "partials/header.php";
         </div>
         <div class="slider__item">
             <div class="slider__item-background background-right animate__animated animate__fadeInUp wow"
-                 data-wow-delay="1.5s"><img src="../images/home/slider-2.png" alt=""></div>
+                 data-wow-delay="1.5s"><img src="../../../../public/site/images/home/slider-2.png" alt=""></div>
             <div class="container h-100">
                 <div class="slider__item-content ml-auto animate__animated animate__fadeInRight wow"
                      data-wow-delay="2.5s">
-                    <div class="content__image"><img src="../images/layout/item-1.png" alt=""></div>
+                    <div class="content__image"><img src="../../../../public/site/images/layout/item-1.png" alt=""></div>
                     <div class="content__title">Choosing only the Natural</div>
                     <p class="content__text">Spadefish tiger shark Alaska blackfish wels catfish plaice four-eyed
                         fish peladillo glass knifefish sbasis, taking local availability.</p><a
@@ -36,10 +36,10 @@ include "partials/header.php";
         </div>
         <div class="slider__item">
             <div class="slider__item-background background-left animate__animated animate__fadeInUp wow"
-                 data-wow-delay="3s"><img src="../images/home/slider-3.png" alt=""></div>
+                 data-wow-delay="3s"><img src="../../../../public/site/images/home/slider-3.png" alt=""></div>
             <div class="container h-100">
                 <div class="slider__item-content animate__animated animate__fadeInLeft wow" data-wow-delay="3.5s">
-                    <div class="content__image"><img src="../images/layout/item-1.png" alt=""></div>
+                    <div class="content__image"><img src="../../../../public/site/images/layout/item-1.png" alt=""></div>
                     <div class="content__title">Choosing the Right Nutrition</div>
                     <p class="content__text">With an emphasis on Organic and Local, we do as little conventional
                         shopping as possible. We are always open to suggestions.</p><a class="btn btn-color"
@@ -55,7 +55,7 @@ include "partials/header.php";
         <div class="row">
             <div class="col-12 col-lg-4 p-0">
                 <div class="about__box animate__animated animate__fadeInLeft wow" data-wow-delay="0.5s">
-                    <div class="about__box-image"><img src="../images/home/about-1.jpg" alt=""></div>
+                    <div class="about__box-image"><img src="../../../../public/site/images/home/about-1.jpg" alt=""></div>
                     <div class="about__box-item animate__animated animate__fadeInUp wow" data-wow-delay="1s">
                         <div class="item__title">Retina Ready</div>
                         <p class="item__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
@@ -65,7 +65,7 @@ include "partials/header.php";
             </div>
             <div class="col-12 col-lg-4 p-0">
                 <div class="about__box animate__animated animate__fadeInUp wow" data-wow-delay="1.5s">
-                    <div class="about__box-image"><img src="../images/home/about-2.jpg" alt=""></div>
+                    <div class="about__box-image"><img src="../../../../public/site/images/home/about-2.jpg" alt=""></div>
                     <div class="about__box-item animate__animated animate__fadeInUp wow" data-wow-delay="2s">
                         <div class="item__title">Only the Best</div>
                         <p class="item__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
@@ -75,7 +75,7 @@ include "partials/header.php";
             </div>
             <div class="col-12 col-lg-4 p-0">
                 <div class="about__box animate__animated animate__fadeInRight wow" data-wow-delay="2.5s">
-                    <div class="about__box-image"><img src="../images/home/about-3.jpg" alt=""></div>
+                    <div class="about__box-image"><img src="../../../../public/site/images/home/about-3.jpg" alt=""></div>
                     <div class="about__box-item animate__animated animate__fadeInUp wow" data-wow-delay="3s">
                         <div class="item__title">Elated Design</div>
                         <p class="item__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
@@ -104,7 +104,7 @@ include "partials/header.php";
         <div class="row">
             <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0">
                 <div class="portfolio__box animate__animated animate__zoomIn wow" data-wow-delay="1s">
-                    <div class="portfolio__box-image"><img src="../images/home/portfolio-1.jpg" alt=""></div>
+                    <div class="portfolio__box-image"><img src="../../../../public/site/images/home/portfolio-1.jpg" alt=""></div>
                     <div class="portfolio__box-item">
                         <div class="item__title">Đậu Hà Lan</div>
                         <div class="item__subtitle">Hà Nam</div>
@@ -113,7 +113,7 @@ include "partials/header.php";
             </div>
             <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0">
                 <div class="portfolio__box animate__animated animate__zoomIn wow" data-wow-delay="1s">
-                    <div class="portfolio__box-image"><img src="../images/home/portfolio-2.jpg" alt=""></div>
+                    <div class="portfolio__box-image"><img src="../../../../public/site/images/home/portfolio-2.jpg" alt=""></div>
                     <div class="portfolio__box-item">
                         <div class="item__title">???</div>
                         <div class="item__subtitle">Hà Nam</div>
@@ -122,7 +122,7 @@ include "partials/header.php";
             </div>
             <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0">
                 <div class="portfolio__box animate__animated animate__zoomIn wow" data-wow-delay="1s">
-                    <div class="portfolio__box-image"><img src="../images/home/portfolio-3.jpg" alt=""></div>
+                    <div class="portfolio__box-image"><img src="../../../../public/site/images/home/portfolio-3.jpg" alt=""></div>
                     <div class="portfolio__box-item">
                         <div class="item__title">Súp Lơ</div>
                         <div class="item__subtitle">Hà Nam</div>
@@ -131,7 +131,7 @@ include "partials/header.php";
             </div>
             <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0">
                 <div class="portfolio__box animate__animated animate__zoomIn wow" data-wow-delay="1s">
-                    <div class="portfolio__box-image"><img src="../images/home/portfolio-4.jpg" alt=""></div>
+                    <div class="portfolio__box-image"><img src="../../../../public/site/images/home/portfolio-4.jpg" alt=""></div>
                     <div class="portfolio__box-item">
                         <div class="item__title">Dâu Tây</div>
                         <div class="item__subtitle">Hà Nam</div>
@@ -140,7 +140,7 @@ include "partials/header.php";
             </div>
             <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0">
                 <div class="portfolio__box animate__animated animate__zoomIn wow" data-wow-delay="1s">
-                    <div class="portfolio__box-image"><img src="../images/home/portfolio-5.jpg" alt=""></div>
+                    <div class="portfolio__box-image"><img src="../../../../public/site/images/home/portfolio-5.jpg" alt=""></div>
                     <div class="portfolio__box-item">
                         <div class="item__title">Củ Dền</div>
                         <div class="item__subtitle">Hà Nam</div>
@@ -149,7 +149,7 @@ include "partials/header.php";
             </div>
             <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0">
                 <div class="portfolio__box animate__animated animate__zoomIn wow" data-wow-delay="1s">
-                    <div class="portfolio__box-image"><img src="../images/home/portfolio-6.jpg" alt=""></div>
+                    <div class="portfolio__box-image"><img src="../../../../public/site/images/home/portfolio-6.jpg" alt=""></div>
                     <div class="portfolio__box-item">
                         <div class="item__title">Khoai Tây</div>
                         <div class="item__subtitle">Hà Nam</div>
@@ -158,7 +158,7 @@ include "partials/header.php";
             </div>
             <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0">
                 <div class="portfolio__box animate__animated animate__zoomIn wow" data-wow-delay="1s">
-                    <div class="portfolio__box-image"><img src="../images/home/portfolio-7.jpg" alt=""></div>
+                    <div class="portfolio__box-image"><img src="../../../../public/site/images/home/portfolio-7.jpg" alt=""></div>
                     <div class="portfolio__box-item">
                         <div class="item__title">Mận</div>
                         <div class="item__subtitle">Hà Nam</div>
@@ -167,7 +167,7 @@ include "partials/header.php";
             </div>
             <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0">
                 <div class="portfolio__box animate__animated animate__zoomIn wow" data-wow-delay="1s">
-                    <div class="portfolio__box-image"><img src="../images/home/portfolio-8.jpg" alt=""></div>
+                    <div class="portfolio__box-image"><img src="../../../../public/site/images/home/portfolio-8.jpg" alt=""></div>
                     <div class="portfolio__box-item">
                         <div class="item__title">Cải Bắp</div>
                         <div class="item__subtitle">Hà Nam</div>
@@ -194,7 +194,7 @@ include "partials/header.php";
             <div class="col-12 col-lg-4">
                 <div class="customize__box">
                     <div class="customize__box-image animate__animated animate__fadeInLeft wow"><img
-                                src="../images/home/customize-1.jpg" alt=""></div>
+                                src="../../../../public/site/images/home/customize-1.jpg" alt=""></div>
                     <div class="customize__box-item animate__animated animate__zoomIn wow" data-wow-delay="0.5s">
                         <div class="item__title">Icon Collections</div>
                         <p class="item__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
@@ -205,7 +205,7 @@ include "partials/header.php";
             <div class="col-12 col-lg-4">
                 <div class="customize__box">
                     <div class="customize__box-image animate__animated animate__fadeInUp wow" data-wow-delay="1s">
-                        <img src="../images/home/customize-2.jpg" alt=""></div>
+                        <img src="../../../../public/site/images/home/customize-2.jpg" alt=""></div>
                     <div class="customize__box-item animate__animated animate__zoomIn wow" data-wow-delay="1.5s">
                         <div class="item__title">Enjoy difference</div>
                         <p class="item__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
@@ -216,7 +216,7 @@ include "partials/header.php";
             <div class="col-12 col-lg-4">
                 <div class="customize__box">
                     <div class="customize__box-image animate__animated animate__fadeInRight wow"
-                         data-wow-delay="2s"><img src="../images/home/customize-3.jpg" alt=""></div>
+                         data-wow-delay="2s"><img src="../../../../public/site/images/home/customize-3.jpg" alt=""></div>
                     <div class="customize__box-item animate__animated animate__zoomIn wow" data-wow-delay="2.5s">
                         <div class="item__title">Supreme Teamwork</div>
                         <p class="item__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
@@ -234,7 +234,7 @@ include "partials/header.php";
         <div class="row">
             <div class="col-12 col-sm-6 col-lg-3 p-0">
                 <div class="clients__box animate__animated animate__fadeInUp wow" data-wow-delay="1s">
-                    <div class="clients__box-image"><img src="../images/home/clients-1.jpg" alt=""></div>
+                    <div class="clients__box-image"><img src="../../../../public/site/images/home/clients-1.jpg" alt=""></div>
                     <div class="clients__box-item">
                         <div class="item__title">Anna White</div>
                         <p class="item__text">Lorem ipsum dolor sit amet, conset etur sadip scing elitrsed.</p>
@@ -247,7 +247,7 @@ include "partials/header.php";
             </div>
             <div class="col-12 col-sm-6 col-lg-3 p-0">
                 <div class="clients__box animate__animated animate__fadeInDown wow" data-wow-delay="1s">
-                    <div class="clients__box-image"><img src="../images/home/clients-2.jpg" alt=""></div>
+                    <div class="clients__box-image"><img src="../../../../public/site/images/home/clients-2.jpg" alt=""></div>
                     <div class="clients__box-item">
                         <div class="item__title">David Harrison</div>
                         <p class="item__text">Lorem ipsum dolor sit amet, conset etur sadip scing elitrsed.</p>
@@ -260,7 +260,7 @@ include "partials/header.php";
             </div>
             <div class="col-12 col-sm-6 col-lg-3 p-0">
                 <div class="clients__box animate__animated animate__fadeInUp wow" data-wow-delay="1s">
-                    <div class="clients__box-image"><img src="../images/home/clients-3.jpg" alt=""></div>
+                    <div class="clients__box-image"><img src="../../../../public/site/images/home/clients-3.jpg" alt=""></div>
                     <div class="clients__box-item">
                         <div class="item__title">Lydia Bergen</div>
                         <p class="item__text">Lorem ipsum dolor sit amet, conset etur sadip scing elitrsed.</p>
@@ -273,7 +273,7 @@ include "partials/header.php";
             </div>
             <div class="col-12 col-sm-6 col-lg-3 p-0">
                 <div class="clients__box animate__animated animate__fadeInDown wow" data-wow-delay="1s">
-                    <div class="clients__box-image"><img src="../images/home/clients-4.jpg" alt=""></div>
+                    <div class="clients__box-image"><img src="../../../../public/site/images/home/clients-4.jpg" alt=""></div>
                     <div class="clients__box-item">
                         <div class="item__title">Melany Cristof</div>
                         <p class="item__text">Lorem ipsum dolor sit amet, conset etur sadip scing elitrsed.</p>
@@ -348,7 +348,7 @@ include "partials/header.php";
         <div class="row">
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="counter__box animate__animated animate__zoomIn wow" data-wow-delay="1s">
-                    <div class="counter__box-image"><img src="../images/home/counter-1.png" alt=""></div>
+                    <div class="counter__box-image"><img src="../../../../public/site/images/home/counter-1.png" alt=""></div>
                     <div class="counter__box-item"><span class="perccent-item-num counters"
                                                          data-target="9859">0</span>
                         <div class="item__title">Team energy left</div>
@@ -357,7 +357,7 @@ include "partials/header.php";
             </div>
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="counter__box animate__animated animate__zoomIn wow" data-wow-delay="1s">
-                    <div class="counter__box-image"><img src="../images/home/counter-2.png" alt=""></div>
+                    <div class="counter__box-image"><img src="../../../../public/site/images/home/counter-2.png" alt=""></div>
                     <div class="counter__box-item"><span class="perccent-item-num counters"
                                                          data-target="8197">0</span>
                         <div class="item__title">Lines of code</div>
@@ -366,7 +366,7 @@ include "partials/header.php";
             </div>
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="counter__box animate__animated animate__zoomIn wow" data-wow-delay="1s">
-                    <div class="counter__box-image"><img src="../images/home/counter-3.png" alt=""></div>
+                    <div class="counter__box-image"><img src="../../../../public/site/images/home/counter-3.png" alt=""></div>
                     <div class="counter__box-item"><span class="perccent-item-num counters"
                                                          data-target="1143">0</span>
                         <div class="item__title">Awesome Projects</div>
@@ -375,7 +375,7 @@ include "partials/header.php";
             </div>
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="counter__box animate__animated animate__zoomIn wow" data-wow-delay="1s">
-                    <div class="counter__box-image"><img src="../images/home/counter-4.png" alt=""></div>
+                    <div class="counter__box-image"><img src="../../../../public/site/images/home/counter-4.png" alt=""></div>
                     <div class="counter__box-item"><span class="perccent-item-num counters"
                                                          data-target="2177">0</span>
                         <div class="item__title">Cups of coffe</div>
@@ -406,7 +406,7 @@ include "partials/header.php";
                         natus error sit volu ptatem omnis. Sed ut perspiciatis unde omnis iste natus errorsit
                         voluptatem accusantium.</p>
                     <div class="item__info">
-                        <div class="item__info-image"><img src="../images/layout/testimonials-1.jpg" alt=""></div>
+                        <div class="item__info-image"><img src="../../../../public/site/images/layout/testimonials-1.jpg" alt=""></div>
                         <div class="item__info-content">
                             <div class="content__name">Sara Newman</div>
                             <div class="content__position">Manager</div>
@@ -420,7 +420,7 @@ include "partials/header.php";
                         natus error sit volu ptatem omnis. Sed ut perspiciatis unde omnis iste natus errorsit
                         voluptatem accusantium.</p>
                     <div class="item__info">
-                        <div class="item__info-image"><img src="../images/layout/testimonials-2.jpg" alt=""></div>
+                        <div class="item__info-image"><img src="../../../../public/site/images/layout/testimonials-2.jpg" alt=""></div>
                         <div class="item__info-content">
                             <div class="content__name">James Newbie</div>
                             <div class="content__position">Docter</div>
@@ -434,7 +434,7 @@ include "partials/header.php";
                         natus error sit volu ptatem omnis. Sed ut perspiciatis unde omnis iste natus errorsit
                         voluptatem accusantium.</p>
                     <div class="item__info">
-                        <div class="item__info-image"><img src="../images/layout/testimonials-3.jpg" alt=""></div>
+                        <div class="item__info-image"><img src="../../../../public/site/images/layout/testimonials-3.jpg" alt=""></div>
                         <div class="item__info-content">
                             <div class="content__name">David Harrison</div>
                             <div class="content__position">Artist</div>
@@ -448,7 +448,7 @@ include "partials/header.php";
 <!-- End Testimonials-->
 <!-- Start Contact-->
 <div class="contact">
-    <div class="contact__background"><img src="../images/layout/contact.jpg" alt=""></div>
+    <div class="contact__background"><img src="../../../../public/site/images/layout/contact.jpg" alt=""></div>
     <div class="container">
         <div class="row">
             <div class="col-12 col-sm-8 col-md-8">

@@ -21,7 +21,7 @@ include "partials/header.php";
 
 <!-- Start Banner-->
 <div class="banner animate__animated animate__fadeIn wow">
-    <div class="banner__background"><img src="../images/layout/banner.webp" alt=""></div>
+    <div class="banner__background"><img src="../../../../public/site/images/layout/banner.webp" alt=""></div>
     <div class="banner__content text-center my-auto">
         <div class="banner__content-title">Tin tức</div>
         <div class="banner__content-subtitle">Trang Chủ<i class="fal fa-angle-right"></i><span>Tin tức</span></div>

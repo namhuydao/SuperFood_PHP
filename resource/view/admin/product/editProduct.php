@@ -32,7 +32,7 @@ if ($name === "" || $price === "" || $category === "") {
 
                 $result = $conn->query($sql);
                 if ($result->num_rows == 0) {
-                    //  Inert thêm vào nếu chưa có
+                    //  Insert thêm vào nếu chưa có
                     $sql = "INSERT INTO link_product_tag (product_id, tag_id) VALUES ('$id', '$tag_id')";
                     $conn->query($sql);
                 }

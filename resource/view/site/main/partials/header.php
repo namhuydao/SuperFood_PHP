@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <!-- Favicon-->
-    <link rel="shortcut icon" href="../images/layout/favicon.ico">
+    <link rel="shortcut icon" href="../../../../public/site/images/layout/favicon.ico">
     <!-- Bootstrap Css-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -20,12 +20,12 @@
     <!-- Fancy Box-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
     <!-- Link Owl Carousel-->
-    <link rel="stylesheet" href="../css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../../../../public/site/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../../../public/site/css/owl.theme.default.min.css">
     <!-- Wow JS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!-- Style Css-->
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../../../../public/site/css/main.css">
     <title>SuperFood</title>
 </head>
 <body>
@@ -41,7 +41,7 @@
         <div class="container">
             <div class="header__menu">
                 <div class="header__menu-logo"><a class="header__menu-logo-link" href="index.php"><img
-                            src="../images/layout/logo.png"></a></div>
+                            src="../../../../public/site/images/layout/logo.png"></a></div>
                 <div class="accordion-menu">
                     <div class="header__menu-button">
                         <div class="bar"></div>
@@ -50,7 +50,7 @@
                     </div>
                     <ul class="header__menu-list">
                         <li class="list__item"><a class="list__item-logo" href="index.php"><img
-                                    src="../../images/layout/logo.png"></a></li>
+                                    src="../../../../../public/site/images/layout/logo.png"></a></li>
                         <li class="list__item"><a class="list__item-link" href="index.php">Trang chủ</a></li>
                         <li class="list__item"><a class="list__item-link" href="about.php">Giới thiệu</a></li>
                         <li class="list__item"><a class="list__item-link" href="services.php">Dịch vụ</a></li>

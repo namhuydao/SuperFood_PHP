@@ -7,7 +7,7 @@ include "partials/header.php";
 <!-- Start Banner-->
 <div class="banner animate__animated animate__fadeIn wow">
     <div class="container">
-        <div class="banner__background"><img src="../images/layout/banner.webp" alt=""></div>
+        <div class="banner__background"><img src="../../../../public/site/images/layout/banner.webp" alt=""></div>
         <div class="banner__content text-center my-auto">
             <div class="banner__content-title">Liên hệ</div>
             <div class="banner__content-subtitle">Trang Chủ<i class="fal fa-angle-right"></i><span>Liên hệ</span>
@@ -30,7 +30,7 @@ include "partials/header.php";
                         <div class="col-12 col-md-6 col-lg-12">
                             <div class="contact__info-item">
                                 <div class="item__image"><i class="color-1 fas fa-map-marker-alt"></i><img
-                                            src="../images/layout/circle-1.png" alt=""></div>
+                                            src="../../../../public/site/images/layout/circle-1.png" alt=""></div>
                                 <div class="item__content">
                                     <div class="item__content-title">Address</div>
                                     <div class="item__content-subtitle">103 Reade St, New York NY 10013</div>
@@ -40,7 +40,7 @@ include "partials/header.php";
                         <div class="col-12 col-md-6 col-lg-12">
                             <div class="contact__info-item">
                                 <div class="item__image"><i class="color-2 fas fa-phone-alt"></i><img
-                                            src="../images/layout/circle-2.png" alt=""></div>
+                                            src="../../../../public/site/images/layout/circle-2.png" alt=""></div>
                                 <div class="item__content">
                                     <div class="item__content-title">Phone</div>
                                     <div class="item__content-subtitle">+1 (212) 379 3968</div>
@@ -50,7 +50,7 @@ include "partials/header.php";
                         <div class="col-12 col-md-6 col-lg-12">
                             <div class="contact__info-item">
                                 <div class="item__image"><i class="color-3 fas fa-paper-plane"></i><img
-                                            src="../images/layout/circle-3.png" alt=""></div>
+                                            src="../../../../public/site/images/layout/circle-3.png" alt=""></div>
                                 <div class="item__content">
                                     <div class="item__content-title">Email</div>
                                     <div class="item__content-subtitle">hello123@gmail.com</div>
@@ -60,7 +60,7 @@ include "partials/header.php";
                         <div class="col-12 col-md-6 col-lg-12">
                             <div class="contact__info-item">
                                 <div class="item__image"><i class="color-4 fas fa-share-alt"></i><img
-                                            src="../images/layout/circle-4.png" alt=""></div>
+                                            src="../../../../public/site/images/layout/circle-4.png" alt=""></div>
                                 <div class="item__content">
                                     <div class="item__content-title">Social Networks</div>
                                     <div class="item__content-icon"><a class="icon__link" href="#"><i

@@ -6,7 +6,7 @@ include "partials/header.php";
 <!-- Start Banner-->
 <div class="banner animate__animated animate__fadeIn wow">
     <div class="container">
-        <div class="banner__background"><img src="../images/layout/banner.webp" alt=""></div>
+        <div class="banner__background"><img src="../../../../public/site/images/layout/banner.webp" alt=""></div>
         <div class="banner__content text-center my-auto">
             <div class="banner__content-title">Giới thiệu</div>
             <div class="banner__content-subtitle">Trang Chủ<i class="fal fa-angle-right"></i><span>Giới thiệu</span>
@@ -22,7 +22,7 @@ include "partials/header.php";
             <div class="col-12 col-lg-6">
                 <div class="reason__box">
                     <div class="reason__box-image animate__animated animate__zoomIn wow" data-wow-delay="1s"><img
-                                src="../images/about/reason.png" alt=""></div>
+                                src="../../../../public/site/images/about/reason.png" alt=""></div>
                 </div>
             </div>
             <div class="col-12 col-lg-6">
@@ -74,7 +74,7 @@ include "partials/header.php";
             <div class="col-12 col-lg-6 order-lg-2">
                 <div class="vision__box">
                     <div class="vision__box-image animate__animated animate__zoomIn wow"><img
-                                src="../images/about/vision.jpg" alt=""></div>
+                                src="../../../../public/site/images/about/vision.jpg" alt=""></div>
                 </div>
             </div>
             <div class="col-12 col-lg-6 order-lg-1">
@@ -171,7 +171,7 @@ include "partials/header.php";
 <!-- End History-->
 <!-- Start Team-->
 <div class="team">
-    <div class="team__background"><img src="../images/about/team-background.png" alt=""></div>
+    <div class="team__background"><img src="../../../../public/site/images/about/team-background.png" alt=""></div>
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-8 mx-auto text-center animate__animated animate__zoomIn wow"
@@ -186,7 +186,7 @@ include "partials/header.php";
             <div class="col-12 col-md-4">
                 <div class="team__box">
                     <div class="team__box-image mx-auto animate__animated animate__fadeInLeft wow"><img
-                                src="../images/about/team-1.jpg" alt=""></div>
+                                src="../../../../public/site/images/about/team-1.jpg" alt=""></div>
                     <div class="team__box-content animate__animated animate__fadeInUp wow" data-wow-delay="0.5s">
                         <div class="content__name">Olivia Thomas</div>
                         <div class="content__position">Senior Chief Supervisor</div>
@@ -201,7 +201,7 @@ include "partials/header.php";
             <div class="col-12 col-md-4">
                 <div class="team__box">
                     <div class="team__box-image mx-auto animate__animated animate__fadeInUp wow"
-                         data-wow-delay="1s"><img src="../images/about/team-2.jpg" alt=""></div>
+                         data-wow-delay="1s"><img src="../../../../public/site/images/about/team-2.jpg" alt=""></div>
                     <div class="team__box-content animate__animated animate__fadeInUp wow" data-wow-delay="1.5s">
                         <div class="content__name">Adam Boyd</div>
                         <div class="content__position">Managing Director</div>
@@ -216,7 +216,7 @@ include "partials/header.php";
             <div class="col-12 col-md-4">
                 <div class="team__box">
                     <div class="team__box-image mx-auto animate__animated animate__fadeInRight wow"
-                         data-wow-delay="2s"><img src="../images/about/team-3.jpg" alt=""></div>
+                         data-wow-delay="2s"><img src="../../../../public/site/images/about/team-3.jpg" alt=""></div>
                     <div class="team__box-content animate__animated animate__fadeInUp wow" data-wow-delay="2.5s">
                         <div class="content__name">Randy Krishen</div>
                         <div class="content__position">Assistant Managing Director</div>
@@ -236,12 +236,12 @@ include "partials/header.php";
 <div class="partners">
     <div class="container">
         <div class="owl-partners owl-carousel owl-theme animate__animated animate__zoomIn wow" data-wow-delay="1s">
-            <div class="partners__image"><img class="mx-auto" src="../images/layout/partners-1.png" alt=""></div>
-            <div class="partners__image"><img class="mx-auto" src="../images/layout/partners-2.png" alt=""></div>
-            <div class="partners__image"><img class="mx-auto" src="../images/layout/partners-3.png" alt=""></div>
-            <div class="partners__image"><img class="mx-auto" src="../images/layout/partners-4.png" alt=""></div>
-            <div class="partners__image"><img class="mx-auto" src="../images/layout/partners-5.png" alt=""></div>
-            <div class="partners__image"><img class="mx-auto" src="../images/layout/partners-6.png" alt=""></div>
+            <div class="partners__image"><img class="mx-auto" src="../../../../public/site/images/layout/partners-1.png" alt=""></div>
+            <div class="partners__image"><img class="mx-auto" src="../../../../public/site/images/layout/partners-2.png" alt=""></div>
+            <div class="partners__image"><img class="mx-auto" src="../../../../public/site/images/layout/partners-3.png" alt=""></div>
+            <div class="partners__image"><img class="mx-auto" src="../../../../public/site/images/layout/partners-4.png" alt=""></div>
+            <div class="partners__image"><img class="mx-auto" src="../../../../public/site/images/layout/partners-5.png" alt=""></div>
+            <div class="partners__image"><img class="mx-auto" src="../../../../public/site/images/layout/partners-6.png" alt=""></div>
         </div>
     </div>
 </div>
