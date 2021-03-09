@@ -9,7 +9,30 @@
     background: #85b935;
     color: #fff
 }
-
+@keyframes fadeInDown {
+    0%{
+        opacity: 0;
+        -webkit-transform: translate3d(0,-30%,0);
+        transform: translate3d(0,-30%,0);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+}
+@keyframes fadeInUp {
+    0%{
+        opacity: 0;
+        -webkit-transform: translate3d(0,30%,0);
+        transform: translate3d(0,30%,0);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+}
 li, ul {
     list-style: none;
     margin-bottom: 0
@@ -174,7 +197,6 @@ button, button:focus, button:active{
 .divider {
     display: block;
     height: 3px;
-    width: 60px;
     margin-top: 20px;
     width: 100px;
     border-radius: 25%;
@@ -593,7 +615,6 @@ button, button:focus, button:active{
 }
 
 .header__menu-list .list__item-form .form__search {
-    padding-right: 48px;
     width: 100%;
     margin-bottom: 0;
     padding: 10px 25px;
@@ -2516,7 +2537,6 @@ button, button:focus, button:active{
     border-top-width: 10px;
     border-bottom-width: 10px;
     border-left-width: 17px;
-    border-left-color: #85b935;
     transition: 1s
 }
 
@@ -3008,7 +3028,7 @@ button, button:focus, button:active{
 .blogDetails__content-title {
     font-size: 50px;
     font-weight: 300;
-    font-family: SofiaPro;
+    font-family: SofiaPro, sans-serif;
     text-align: center;
     text-transform: unset;
     padding-bottom: 20px;
