@@ -36,7 +36,7 @@ if (isset($_POST['resetPassword'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <meta name="description" content=""/>
     <meta name="author" content=""/>
-    <title>Đặt lại mật khẩu - Web Admin</title>
+    <title>Đặt lại mật khẩu - SuperFood Admin</title>
     <link href="../../../../public/core/assets/css/core.css" rel="stylesheet"/>
     <link href="../../../../public/admin/assets/css/styles.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"

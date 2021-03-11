@@ -141,7 +141,7 @@ if (isset($_POST["register"])) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <meta name="description" content=""/>
     <meta name="author" content=""/>
-    <title>Đăng Ký - Web Admin</title>
+    <title>Đăng Ký - SuperFood Admin</title>
     <link href="../../../../public/core/assets/css/core.css" rel="stylesheet"/>
     <link href="../../../../public/admin/assets/css/styles.css" rel="stylesheet"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"

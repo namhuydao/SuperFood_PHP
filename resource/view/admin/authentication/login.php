@@ -46,7 +46,7 @@ if (isset($_POST["login"])) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <meta name="description" content=""/>
     <meta name="author" content=""/>
-    <title>Đăng nhập - Web Admin</title>
+    <title>Đăng nhập - SuperFood Admin</title>
     <link href="../../../../public/core/assets/css/core.css" rel="stylesheet"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"
             crossorigin="anonymous"></script>
