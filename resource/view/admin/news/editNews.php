@@ -2,6 +2,9 @@
 session_start();
 include '../../../../database/database.php';
 include '../../../../function/function.php';
+if (!isset($_SESSION['user'])) {
+    header('Location:../authentication/login.php');
+}
 $id = $_SESSION["user"]["id"];
 $query = mysqli_query($conn, "SELECT * FROM users where id='$id'");
 $user = $query->fetch_assoc();
@@ -101,13 +104,169 @@ if (isset($_POST['editNews'])) {
           integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body class="sb-nav-fixed">
-<?php
-include '../partials/header.php';
-?>
+<nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+    <a class="navbar-brand" href="dashboard.php">
+        <?php
+        $id = $_SESSION["user"]["id"];
+        $query = mysqli_query($conn, "SELECT * FROM users where id='$id'");
+        $user = $query->fetch_assoc();
+        echo "Xin chào " . $user['firstname'];
+        ?>
+    </a>
+    <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i>
+    </button>
+    <!-- Navbar Search-->
+    <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+        <div class="input-group">
+            <input class="form-control" type="text" placeholder="Tìm kiếm..." aria-label="Search"
+                   aria-describedby="basic-addon2"/>
+            <div class="input-group-append">
+                <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </form>
+    <!-- Navbar-->
+    <ul class="navbar-nav ml-auto ml-md-0">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown"
+               aria-haspopup="true" aria-expanded="false"><img style="border-radius: 50%" src="<?php
+                if ($user['images']) {
+                    echo $user['images'];
+                } else {
+                    echo '../../../../public/admin/assets/images/userImages/defaultImage.png';
+                }
+                ?>" alt="" width="30" height="30"></a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+                <a class="dropdown-item" href="../main-view/userProfile.php">Thông tin cá nhân</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="../authentication/logout.php">Đăng xuất</a>
+            </div>
+        </li>
+    </ul>
+</nav>
+
 <div id="layoutSidenav">
-    <?php
-    include '../partials/layoutSideNav.php';
-    ?>
+    <div id="layoutSidenav_nav">
+        <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+            <div class="sb-sidenav-menu">
+                <div class="nav">
+                    <div class="sb-sidenav-menu-heading">Core</div>
+                    <a class="nav-link" href="../main-view/dashboard.php">
+                        <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                        Dashboard
+                    </a>
+                    <div class="sb-sidenav-menu-heading">Interface</div>
+                    <?php
+                    $xem_sp = checkPer($user['id'], 'user_view');
+                    if ($xem_sp == true):
+                        ?>
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayouts"
+                           aria-expanded="false" aria-controls="collapseLayouts">
+                            <div class="sb-nav-link-icon"><i class="fal fa-user-circle"></i></div>
+                            Người dùng
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne"
+                             data-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <a class="nav-link" href="../main-view/manage-users.php"">Quản lý người dùng</a>
+                            </nav>
+                        </div>
+                    <?php
+                    endif;
+                    ?>
+                    <?php
+                    $xem_sp = checkPer($user['id'], 'product_view');
+                    if ($xem_sp == true):
+                        ?>
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayouts2"
+                           aria-expanded="false" aria-controls="collapseLayouts">
+                            <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                            Sản phẩm
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="collapseLayouts2" aria-labelledby="headingOne"
+                             data-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <a class="nav-link" href="../main-view/manage-products.php"">Quản lý sản phẩm</a>
+                            </nav>
+                        </div>
+                        <div class="collapse" id="collapseLayouts2" aria-labelledby="headingOne"
+                             data-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <a class="nav-link" href="../main-view/manage-product_categories.php"">Quản lý danh mục sản phẩm</a>
+                            </nav>
+                        </div>
+                        <div class="collapse" id="collapseLayouts2" aria-labelledby="headingOne"
+                             data-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <a class="nav-link" href="../main-view/manage-product_tags.php"">Quản lý Tag sản phẩm</a>
+                            </nav>
+                        </div>
+                    <?php
+                    endif;
+                    ?>
+                    <?php
+                    $xem_sp = checkPer($user['id'], 'post_view');
+                    if ($xem_sp == true):
+                        ?>
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayouts3"
+                           aria-expanded="false" aria-controls="collapseLayouts">
+                            <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                            Tin tức
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="collapseLayouts3" aria-labelledby="headingOne"
+                             data-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <a class="nav-link" href="../main-view/manage-news.php"">Quản lý tin tức</a>
+                            </nav>
+                        </div>
+                        <div class="collapse" id="collapseLayouts3" aria-labelledby="headingOne"
+                             data-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <a class="nav-link" href="../main-view/manage-news_categories.php"">Quản lý danh mục tin tức</a>
+                            </nav>
+                        </div>
+                        <div class="collapse" id="collapseLayouts3" aria-labelledby="headingOne"
+                             data-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <a class="nav-link" href="../main-view/manage-news_tags.php"">Quản lý Tag tin tức</a>
+                            </nav>
+                        </div>
+                    <?php
+                    endif;
+                    ?>
+                    <?php
+                    $xem_sp = checkPer($user['id'], 'role_view');
+                    if ($xem_sp == true):
+                        ?>
+                        <div class="sb-sidenav-menu-heading">Admin</div>
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayouts4"
+                           aria-expanded="false" aria-controls="collapseLayouts">
+                            <div class="sb-nav-link-icon"><i class="far fa-user-tie"></i></div>
+                            Phân quyền
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="collapseLayouts4" aria-labelledby="headingOne"
+                             data-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <a class="nav-link" href="../main-view/manage-roles.php">Quản lý quyền</a>
+                            </nav>
+                        </div>
+                    <?php
+                    endif;
+                    ?>
+                </div>
+            </div>
+            <div class="sb-sidenav-footer">
+                <div class="small">Đăng nhập với:</div>
+                <?php
+                echo $user["email"];
+                ?>
+            </div>
+        </nav>
+    </div>
     <div id="layoutSidenav_content">
         <main>
             <form action="" method="POST" enctype="multipart/form-data">
