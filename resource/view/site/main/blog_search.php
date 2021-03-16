@@ -22,7 +22,7 @@ if(isset($_GET['submit_search'])) {
     $count_sql .= " WHERE content LIKE '%" . $search . "%'";
     $count_sql .= " OR title LIKE '%" . $search . "%'";
     $count_sql .= " OR description LIKE '%" . $search . "%'";
-    $count_sql .= " OR author LIKE '%" . $search . "%' ORDER BY id DESC LIMIT $per_page";
+    $count_sql .= " OR author LIKE '%" . $search . "%' ORDER BY id DESC";
     $count = $conn->query($count_sql);
     $count = $count->fetch_assoc();
     $total = $count['total'];
